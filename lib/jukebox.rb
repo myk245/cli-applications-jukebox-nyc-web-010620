@@ -73,6 +73,4 @@ def run(songs)
 
   end
 
-  puts "Please enter a command:"
-    user_input = gets.chomp
   end
