@@ -70,11 +70,10 @@ def run
 
     when "exit"
     exit_jukebox
-    
+
   break
   end
   puts "Please enter a command:"
     user_input = gets.chomp
     end
-  end
 end
