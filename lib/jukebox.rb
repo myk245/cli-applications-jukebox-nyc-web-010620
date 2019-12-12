@@ -69,5 +69,8 @@ def run
     break
   else
     help
-  end 
+  end
+  puts "Please enter a command:"
+    user_input = gets.chomp
+  end
 end
