@@ -40,11 +40,12 @@ def play(songs)
 
   songs.each_with_index do |song, index|
     if user_selection == (index + 1).to_s || user_selection == song
-      puts "Playing #{song}"
+      response = "Playing #{song}"
     else
       puts "Invalid input, please try again"
     end
   end
+  puts response
 end
 
 def exit_jukebox
