@@ -62,9 +62,9 @@ def run
     list(songs)
     when command == "play"
     play(songs)
-  when command == "help"
+    when command == "help"
     help
-  when command == "exit"
+    when command == "exit"
     exit_jukebox
 
 end
