@@ -65,6 +65,6 @@ def run
   when command == "help"
     help
   when command == "exit"
-    exit
+    exit_jukebox
 
 end
