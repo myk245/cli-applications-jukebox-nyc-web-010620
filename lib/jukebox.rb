@@ -58,5 +58,5 @@ def run
   command = gets.strip
 
   if command == "list"
-    
+    list(songs)
 end
