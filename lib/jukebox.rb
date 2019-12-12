@@ -35,7 +35,8 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  response = gets.strip
+  user_selection = gets.strip
+  response = ""
 
   songs.each_with_index do |song, index|
     if response == (index + 1).to_s || response == song
@@ -43,7 +44,7 @@ def play(songs)
     else
       puts "Invalid input, please try again"
     end
-  end 
+  end
 end
 
 def exit_jukebox
