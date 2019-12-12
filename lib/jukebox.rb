@@ -58,13 +58,13 @@ def run
   command = gets.strip
 
   case command
-    when command == "list"
+    when "list"
     list(songs)
-    when command == "play"
+    when "play"
     play(songs)
-    when command == "help"
+    when "help"
     help
-    when command == "exit"
+    when "exit"
     exit_jukebox
     break
   else
