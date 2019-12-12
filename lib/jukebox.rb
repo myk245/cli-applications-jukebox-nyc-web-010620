@@ -56,5 +56,7 @@ end
 def run
   puts "Please enter a command:"
   command = gets.strip
-  
+
+  if command == "list"
+    
 end
