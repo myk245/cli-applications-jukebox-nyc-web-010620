@@ -66,6 +66,5 @@ def run
     help
   when command == "exit"
     exit
-    break
+
 end
-end 
