@@ -70,7 +70,8 @@ def run(songs)
 
     when "exit"
     exit_jukebox
-
+    break
+    
   end
 
   puts "Please enter a command:"
