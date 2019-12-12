@@ -66,9 +66,10 @@ def run
     help
     when "exit"
     exit_jukebox
-    break
+  break
   end
   puts "Please enter a command:"
     user_input = gets.chomp
-  end
+    end
+  end 
 end
