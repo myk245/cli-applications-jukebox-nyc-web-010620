@@ -59,4 +59,7 @@ def run
 
   if command == "list"
     list(songs)
+  elsif command == "play"
+    play(songs)
+    
 end
